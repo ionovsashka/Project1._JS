@@ -1,0 +1,33 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+<!--Заголовок страницы, контейнер для других важных данных(не отображается)-->
+
+<head>
+	<!--Заголовок страницы в браузере-->
+	<title>AOD</title>
+	<!--Подключение CSS-стиелй-->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--Кодировка страницы-->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<!--Отображаемое тело страницы-->
+
+<body>
+	<div class="wrapper">
+		<div class="hex-colors__container">
+			<h1 class="hex-colors__title">Click the button bellow to generate a random gradient hex color combination
+			</h1>
+			<h2 class="hex-colors__subtitle">background: linear-gradient(to right, #<span id="hexcode1">ffffff</span>,
+				#<span id="hexcode2">ffffff</span>)</h2>
+			<button id="submit" class="hex-colors__button">Click Me</button>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
